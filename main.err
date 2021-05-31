@@ -1,0 +1,15 @@
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 353(1,1): Assignment to enum is not of the correct type
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 368(1,1): Assignment to enum is not of the correct type
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 414(1,1): Assignment to enum is not of the correct type
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 429(1,1): Assignment to enum is not of the correct type
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 898(1,1): Assignment to enum is not of the correct type
+>>> Warning 209 "E:\PIC_MASTER\mmcsd.c" Line 912(1,1): Assignment to enum is not of the correct type
+>>> Warning 207 "main.c" Line 964(1,1): Code has no effect
+--- Info 300 "main.c" Line 1002(1,1): More info:   WDT Postscale Configuration bits can only be set once
+>>> Warning 203 "main.c" Line 1006(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 1145(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 1166(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 1171(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_us1)
+      Memory usage:   ROM=91%      RAM=58% - 75%
+      0 Errors,  11 Warnings.
+Build Successful.

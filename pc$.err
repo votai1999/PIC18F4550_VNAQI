@@ -1,0 +1,86 @@
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 59(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 60(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 61(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 62(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 63(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 64(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 65(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 66(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 67(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 68(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 69(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 70(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 71(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 72(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 73(1,5): A numeric expression must appear here
+*** Error 48 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 75(4,5): Expecting a (
+*** Error 12 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 255(9,15): Undefined identifier   _b
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 261(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 262(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 272(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 273(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 274(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 295(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 296(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 297(1,5): A numeric expression must appear here
+*** Error 43 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 305(42,46): Expecting a declaration
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 378(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 379(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 380(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 381(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 382(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 407(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 408(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 409(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 410(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 411(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 412(1,5): A numeric expression must appear here
+*** Error 36 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 413(57,62): Expecting a ; or ,
+*** Error 43 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 413(63,64): Expecting a declaration
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 510(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 511(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 512(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 513(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 514(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 535(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 536(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 537(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 538(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 539(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 586(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 587(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 588(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 589(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 590(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 591(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 592(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 595(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 596(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 597(1,5): A numeric expression must appear here
+*** Error 43 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 598(40,41): Expecting a declaration
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 635(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 638(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 639(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 640(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 643(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 644(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 645(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 646(1,5): A numeric expression must appear here
+*** Error 43 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 647(51,52): Expecting a declaration
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 698(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 699(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 700(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 701(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 702(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 703(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 704(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 705(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 706(1,5): A numeric expression must appear here
+*** Error 36 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 707(39,43): Expecting a ; or ,
+*** Error 43 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 707(44,45): Expecting a declaration
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 764(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 765(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 766(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 779(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 780(1,5): A numeric expression must appear here
+*** Error 51 "C:\Program Files (x86)\PICC\devices\18F4550.h" Line 783(1,5): A numeric expression m

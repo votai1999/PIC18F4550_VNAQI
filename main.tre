@@ -1,0 +1,687 @@
+ÀÄmain
+   ÃÄmain  0/2392  Ram=17
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄcaidatngatvatimer  0/40  Ram=0
+   ³  ÃÄcheckthesd  0/84  Ram=3
+   ³  ³  ÃÄfat_init  0/568  Ram=25
+   ³  ³  ³  ÃÄmmcsd_init  0/262  Ram=2
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³  ÃÄmmcsd_go_idle_state  0/24  Ram=0
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÃÄmmcsd_crc7  0/96  Ram=8
+   ³  ³  ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ³  ÀÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³  ÃÄmmcsd_send_op_cond  0/26  Ram=0
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³  ÃÄmmcsd_app_cmd  0/26  Ram=0
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_sd_send_op_cond  0/26  Ram=0
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³  ÃÄmmcsd_set_blocklen  0/34  Ram=4
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³  ÃÄmmcsd_crc_on_off  0/46  Ram=1
+   ³  ³  ³  ³  ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄmmcsd_load_buffer  0/42  Ram=0
+   ³  ³  ³  ³     ÀÄmmcsd_read_block  0/280  Ram=15
+   ³  ³  ³  ³        ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³        ÃÄmmcsd_read_single_block  0/34  Ram=4
+   ³  ³  ³  ³        ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³        ³  ³  ÀÄ*
+   ³  ³  ³  ³        ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³        ³     ÀÄ*
+   ³  ³  ³  ³        ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³  ³        ÃÄmmcsd_wait_for_token  0/30  Ram=2
+   ³  ³  ³  ³        ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³        ³     ÀÄ*
+   ³  ³  ³  ³        ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³  ³        ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ÃÄmmcsd_crc16  0/114  Ram=10
+   ³  ³  ³  ³        ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³  ³        ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ÀÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³           ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄmmcsd_read_byte  0/82  Ram=14
+   ³  ³  ³  ³     ÀÄmmcsd_move_buffer  0/140  Ram=9
+   ³  ³  ³  ³        ÃÄmmcsd_flush_buffer  0/56  Ram=0
+   ³  ³  ³  ³        ³  ÀÄmmcsd_write_block  0/252  Ram=13
+   ³  ³  ³  ³        ³     ÃÄmmcsd_select  0/6  Ram=0
+   ³  ³  ³  ³        ³     ÃÄmmcsd_write_single_block  0/34  Ram=4
+   ³  ³  ³  ³        ³     ³  ÃÄmmcsd_send_cmd  0/156  Ram=11
+   ³  ³  ³  ³        ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³        ³     ³  ÀÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³        ³     ³     ÀÄ*
+   ³  ³  ³  ³        ³     ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³     ³  ÀÄ*
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÃÄmmcsd_crc16  0/114  Ram=10
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÃÄmmcsd_get_r1  0/54  Ram=2
+   ³  ³  ³  ³        ³     ³  ÀÄ*
+   ³  ³  ³  ³        ³     ÃÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³     ³  ÀÄ*
+   ³  ³  ³  ³        ³     ÃÄ@SPI_XFER_1  0/84  Ram=5
+   ³  ³  ³  ³        ³     ÀÄmmcsd_deselect  0/20  Ram=0
+   ³  ³  ³  ³        ³        ÀÄ*
+   ³  ³  ³  ³        ÀÄmmcsd_load_buffer  0/42  Ram=0
+   ³  ³  ³  ³           ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÀÄ@MUL3232  0/92  Ram=14
+   ³  ³  ÃÄ@PSTRINGC_635  0/34  Ram=2
+   ³  ³  ³  ÀÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@const1877  0/26  Ram=0
+   ³  ÃÄPrintURL  0/94  Ram=66
+   ³  ³  ÃÄfatopen  0/680  Ram=102
+   ³  ³  ³  ÃÄset_file  0/1744  Ram=52
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄget_file_name  0/382  Ram=20
+   ³  ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄget_short_file_name  0/312  Ram=14
+   ³  ³  ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄstrlen  0/60  Ram=5
+   ³  ³  ³  ³  ³  ³  ÀÄstrlen  0/60  Ram=5
+   ³  ³  ³  ³  ³  ÃÄget_prev_entry  0/98  Ram=8
+   ³  ³  ³  ³  ³  ³  ÀÄget_prev_addr  0/452  Ram=16
+   ³  ³  ³  ³  ³  ³     ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ³     ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ³  ³     ³  ÀÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ³     ÃÄget_prev_cluster  0/212  Ram=15
+   ³  ³  ³  ³  ³  ³     ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³  ³  ³  ³     ÀÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³        ÀÄ@MUL3232  0/92  Ram=14
+   ³  ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄstrcmp  0/122  Ram=5
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄdealloc_clusters  0/170  Ram=13
+   ³  ³  ³  ³  ³  ÃÄget_next_cluster  0/124  Ram=7
+   ³  ³  ³  ³  ³  ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄwrite_fat  0/102  Ram=13
+   ³  ³  ³  ³  ³     ÀÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ³        ÀÄmmcsd_write_byte  0/78  Ram=12
+   ³  ³  ³  ³  ³           ÀÄmmcsd_move_buffer  0/140  Ram=9
+   ³  ³  ³  ³  ³              ÀÄ*
+   ³  ³  ³  ³  ÃÄfatsetpos  0/1012  Ram=28
+   ³  ³  ³  ³  ³  ÃÄrewind  0/130  Ram=8
+   ³  ³  ³  ³  ³  ÃÄfatputc  0/734  Ram=9
+   ³  ³  ³  ³  ³  ³  ÃÄget_next_free_cluster  0/380  Ram=25
+   ³  ³  ³  ³  ³  ³  ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄwrite_fat  0/102  Ram=13
+   ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄclear_cluster  0/188  Ram=47
+   ³  ³  ³  ³  ³  ³  ³  ÃÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ³  ÀÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄwrite_buffer  0/346  Ram=9
+   ³  ³  ³  ³  ³  ³  ³  ÀÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄget_next_addr  0/398  Ram=16
+   ³  ³  ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ³  ³  ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ³  ÃÄget_next_cluster  0/124  Ram=7
+   ³  ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ³  ÀÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³  ÀÄalloc_clusters  0/244  Ram=16
+   ³  ³  ³  ³  ³  ³     ÃÄget_next_free_cluster  0/380  Ram=25
+   ³  ³  ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³     ÃÄwrite_fat  0/102  Ram=13
+   ³  ³  ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³     ÃÄwrite_fat  0/102  Ram=13
+   ³  ³  ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³     ÃÄclear_cluster  0/188  Ram=47
+   ³  ³  ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³  ³  ³     ÀÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³        ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄget_next_cluster  0/124  Ram=7
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄcluster_to_addr  0/92  Ram=8
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄget_next_entry  0/100  Ram=8
+   ³  ³  ³  ³     ÀÄget_next_addr  0/398  Ram=16
+   ³  ³  ³  ³        ÀÄ*
+   ³  ³  ³  ÀÄset_file  0/1744  Ram=52
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄtachdl2  0/202  Ram=204
+   ³  ³  ³  ÃÄfatgetc  0/278  Ram=9
+   ³  ³  ³  ³  ÃÄread_buffer  0/258  Ram=11
+   ³  ³  ³  ³  ³  ÀÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÀÄget_next_addr  0/398  Ram=16
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ³  ³  ÀÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄstrlen  0/60  Ram=5
+   ³  ³  ³  ÀÄeeprom_write_string  0/98  Ram=4
+   ³  ³  ÃÄfatclose  0/806  Ram=13
+   ³  ³  ³  ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_read_data  0/136  Ram=17
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄaddr_to_cluster  0/118  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄfatflush  0/412  Ram=10
+   ³  ³  ³     ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÃÄmmcsd_write_data  0/134  Ram=16
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÀÄmmcsd_flush_buffer  0/56  Ram=0
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÀÄfatclose  0/806  Ram=13
+   ³  ³     ÀÄ*
+   ³  ÃÄeeprom_read_string  0/96  Ram=9
+   ³  ÃÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³  ÀÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄ@PSTRINGR_635  0/38  Ram=2
+   ³  ³  ÀÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄcapnhat_gio  0/478  Ram=6
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄstrtok  0/186  Ram=10
+   ³  ³  ³  ÃÄstrspn  0/144  Ram=9
+   ³  ³  ³  ÃÄstrpbrk  0/122  Ram=9
+   ³  ³  ³  ÀÄstrlen  0/60  Ram=5
+   ³  ³  ÃÄatoi  0/402  Ram=9
+   ³  ³  ³  ÀÄ@MUL88  0/80  Ram=2
+   ³  ³  ÃÄstrtok  0/186  Ram=10
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ÀÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PRINTF_U_635  0/130  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ÃÄSet_Time_Date  0/186  Ram=7
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ³  ÀÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ³  ÃÄDEC_2_BCD  0/48  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ÀÄ@PSTRINGC_635  0/34  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄUpdate_Current_Date_Time  0/346  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_READ_1  0/96  Ram=3
+   ³  ³  ÃÄBCD_2_DEC  0/30  Ram=2
+   ³  ³  ÃÄ@I2C_WRITE_1  0/106  Ram=1
+   ³  ³  ÀÄ@I2C_READ_1  0/96  Ram=3
+   ³  ÃÄdocadc  0/202  Ram=4
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÀÄ@MULFF  0/246  Ram=11
+   ³  ÃÄUpdate_Current_Date_Time  0/346  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄcapnhat_gio  0/478  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄcapnhat_gio  0/478  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ÃÄValue_Sensor_RS485  0/2970  Ram=21
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÃÄsend_hamSO2  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_hamNO2  0/70  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_hamCO  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_PM25  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_PM10  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_LUX  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_Noise  0/72  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄsend_Wind  0/70  Ram=10
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_2_  0/86  Ram=1
+   ³  ³  ³  ÃÄread_rs485  0/142  Ram=9
+   ³  ³  ³  ³  ÀÄ@GETCH_1_  0/94  Ram=1
+   ³  ³  ³  ÃÄread_rs485_4800  0/144  Ram=9
+   ³  ³  ³  ³  ÀÄ@GETCH_2_  0/96  Ram=1
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ³  ÃÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_D_635  0/200  Ram=6
+   ³  ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ³  ÀÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ³  ³  ÀÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@const1855  0/22  Ram=0
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄRandom  0/214  Ram=12
+   ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ÃÄrand  0/116  Ram=4
+   ³  ³  ³  ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³  ³  ³  ÀÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ³  ÀÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ÃÄ@FTOSD  0/68  Ram=5
+   ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ³  ÀÄ@DIV3232  0/148  Ram=13
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@const1855  0/22  Ram=0
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄRandom  0/214  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄ@const1855  0/22  Ram=0
+   ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ÃÄRandom  0/214  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ_ketquars485  0/886  Ram=22
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄRandom  0/214  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ_ketquars485_Temp_Humi  0/900  Ram=24
+   ³  ³     ÃÄsend_Temp_Humi  0/70  Ram=10
+   ³  ³     ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³     ÃÄread_rs485  0/142  Ram=9
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³     ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³     ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@ITOF  0/54  Ram=2
+   ³  ³     ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³     ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³     ÃÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄ@PRINTF_D_635  0/200  Ram=6
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³        ÀÄ*
+   ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄValue_Sensor_RS485  0/2970  Ram=21
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_635  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D_635  0/200  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄValue_Sensor_RS485  0/2970  Ram=21
+   ³  ³  ÀÄ*
+   ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ÃÄdocdht22  0/198  Ram=2
+   ³  ³  ÃÄstart_signal  0/34  Ram=0
+   ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄcheck_response  0/64  Ram=0
+   ³  ³  ³  ÀÄ@delay_us1  0/38  Ram=1
+   ³  ³  ÃÄRead_Data  0/182  Ram=4
+   ³  ³  ÃÄRead_Data  0/182  Ram=4
+   ³  ³  ÃÄRead_Data  0/182  Ram=4
+   ³  ³  ÃÄRead_Data  0/182  Ram=4
+   ³  ³  ÃÄRead_Data  0/182  Ram=4
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÀÄ@DIV1616  0/70  Ram=5
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ@SPRINTF  0/34  Ram=1
+   ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_1476  0/36  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D_1476  0/202  Ram=6
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ³  ÀÄ@SPRINTF  0/34  Ram=1
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_1476FPFPF  0/444  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_1476  0/200  Ram=9
+   ³  ³  ÀÄ@SPRINTF  0/34  Ram=1
+   ³  ÃÄ@PSTRINGCN_1476  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_1476  0/200  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/34  Ram=1
+   ³  ÃÄ@PSTRINGR_9600_31766_31767  0/40  Ram=2
+   ³  ÃÄupdate_time_1day  0/54  Ram=1
+   ³  ³  ÀÄcapnhat_gio  0/478  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PSTRINGC_635  0/34  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_635  0/34  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_635  0/38  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_3_  0/82  Ram=1
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄstrtok  0/186  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄatoi  0/402  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SITOF  0/82  Ram=2
+   ³  ÃÄstrtok  0/186  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ÀÄ@FLT  0/122  Ram=10
+   ÃÄRDA_isr  0/102  Ram=2
+   ÃÄtimer1_isr  0/116  Ram=0
+   ÀÄext_isr  0/16  Ram=0
+      ÀÄ@delay_us1  0/38  Ram=1

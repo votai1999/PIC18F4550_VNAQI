@@ -1,0 +1,218 @@
+
+ROM used:   29882/32768 (91%)
+            29882/32768 (91%) including unused fragments
+
+            2.8 Average locations per line
+            12.4 Average locations per statement
+
+RAM used:   1189/2048 (58%) at main() level
+            1546/2048 (75%) worst case
+
+Stack used: 10 worst case (8 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1173   597  25  main.c
+  841     0   0  C:\Program Files (x86)\PICC\devices\18F4550.h
+ 2227   257  11  C:\Program Files (x86)\PICC\drivers\math.h
+   59     0   0  _inc\types.h
+ 1351   359  15  C:\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\drivers\stddef.h
+  435     0   0  C:\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
+  924   279  12  mmcsd.c
+  163     0   0  C:\Program Files (x86)\PICC\drivers\stdint.h
+ 3298   915  38  C:\Program Files (x86)\PICC\drivers\fat.c
+----- -----
+10531  2407 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   0    1             @delay_ms1
+0     38   0    1             @delay_us1
+0     82   0    1             @PUTCHAR_1_
+0     94   0    1             @GETCH_1_
+0     86   0    1             @PUTCHAR_2_
+0     96   0    1             @GETCH_2_
+0     82   0    1             @PUTCHAR_3_
+0    122   0   10             @FLT
+0     60   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    246   0   11             @MULFF
+0    632   1   16             @ADDFF
+0    350   1   14             @DIVFF
+0     82   0    2             @SITOF
+0    122   0    5    243  7.0  strcmp
+0    122   0    9    305  6.5  strpbrk
+0    144   0    9    365  8.1  strspn
+0     60   0    5    140  5.0  strlen
+0    186   0   10    516  8.6  strtok
+0     80   0    2             @MUL88
+0    402   1    9   1815 10.5  atoi
+0     92   0   14             @MUL3232
+0    116   0    4    101  3.8  rand
+0     70   0    5             @DIV1616
+0     34   0    5             @MUL1616
+0     84   0    5             @SPI_XFER_1
+0    262   0    2   1438  7.3  mmcsd_init
+0    136   0   17    268  5.3  mmcsd_read_data
+0    280   0   15    813  6.7  mmcsd_read_block
+0    134   0   16    273  5.3  mmcsd_write_data
+0    252   0   13    785  8.1  mmcsd_write_block
+0     24   0    0     48  1.6  mmcsd_go_idle_state
+0     26   0    0     48  1.6  mmcsd_send_op_cond
+0     34   0    4     53  1.7  mmcsd_set_blocklen
+0     34   0    4     53  1.7  mmcsd_read_single_block
+0     34   0    4     53  1.7  mmcsd_write_single_block
+0     26   0    0     48  1.6  mmcsd_sd_send_op_cond
+0     26   0    0     48  1.6  mmcsd_app_cmd
+0     46   0    1     74  2.2  mmcsd_crc_on_off
+0    156   0   11    823  4.8  mmcsd_send_cmd
+0     54   0    2    189  4.2  mmcsd_get_r1
+0     30   0    2     96  3.2  mmcsd_wait_for_token
+0     96   0    8    587  6.6  mmcsd_crc7
+0    114   0   10    593  6.7  mmcsd_crc16
+0      6   0    0     17  0.8  mmcsd_select
+0     20   0    0     43  1.3  mmcsd_deselect
+0     42   0    0     68  2.1  mmcsd_load_buffer
+0     56   0    0    106  2.6  mmcsd_flush_buffer
+0    140   0    9    315  4.0  mmcsd_move_buffer
+0     82   0   14    188  4.7  mmcsd_read_byte
+0     78   0   12    212  2.9  mmcsd_write_byte
+0    680   1  102   2174 12.6  fatopen
+0    806   1   13   1500  8.4  fatclose
+0    278   0    9    601  8.1  fatgetc
+0    734   1    9   1203  9.6  fatputc
+0   1012   2   28   1268 11.8  fatsetpos
+0    148   0   13             @DIV3232
+0    412   1   10    598  7.6  fatflush
+0    130   0    8     86  2.7  rewind
+0   1744   3   52   3322 11.5  set_file
+0    382   1   20   1139  9.9  get_file_name
+0    312   1   14    856  8.9  get_short_file_name
+0     34   0    1             @SPRINTF
+0    380   1   25    641  8.8  get_next_free_cluster
+0    100   0    8    181  5.2  get_next_entry
+0     98   0    8    181  5.2  get_prev_entry
+0    244   0   16    453  5.0  alloc_clusters
+0    170   0   13    301  5.5  dealloc_clusters
+0    188   0   47    428  6.6  clear_cluster
+0    102   0   13    144  5.1  write_fat
+0    258   0   11    474  8.8  read_buffer
+0    346   1    9    404  7.5  write_buffer
+0    568   1   25   1180  6.3  fat_init
+0    124   0    7    136  4.0  get_next_cluster
+0    212   0   15    289  6.3  get_prev_cluster
+0    398   1   16    390  6.5  get_next_addr
+0    452   1   16    366  6.5  get_prev_addr
+0     92   0    8     60  2.3  cluster_to_addr
+0    118   0    8     59  2.6  addr_to_cluster
+0     36   0    2             @PSTRINGR_1476
+0     10   0    0             @const1562
+0     40   0    2             @PSTRINGR_9600_31766_31767
+0     14   0    0             @const1570
+0     20   0    0             @const1580
+0     30   0    0             @const1581
+0     24   0    0             @const1584
+0     30   0    0             @const1585
+0     28   0    0             @const1586
+0      8   0    0             @const1590
+0      8   0    0             @const1592
+0     20   0    0             @const1593
+0     12   0    0             @const1594
+0     14   0    0             @const1596
+0     24   0    0             @const1598
+0     24   0    0             @const1599
+0     20   0    0             @const1600
+0     96   0    3             @I2C_READ_1
+0    106   0    1             @I2C_WRITE_1
+0    102   0    2    415  5.6  RDA_isr
+0     98   0    4    119  3.5  eeprom_write_string
+0     96   0    9    411  7.6  eeprom_read_string
+0    116   0    0    375  3.3  timer1_isr
+0     16   0    0     17  0.8  ext_isr
+0     34   0    0     67  1.2  start_signal
+0     64   0    0    127  2.5  check_response
+0    182   0    4    705  7.7  Read_Data
+0    198   0    2    653  6.2  docdht22
+0     26   0    0             @const1723
+0     24   0    0             @const1725
+0     42   0    3             @PSTRINGCN_635
+0     38   0    2             @PSTRINGR_635
+0     84   0    3    239  5.2  checkthesd
+0      8   0    0             @const1732
+0     34   0    2             @PSTRINGC_635
+0    202   0    4     98  2.5  docadc
+0     40   0    0    163  1.8  caidatngatvatimer
+0    202   0  204    529  7.3  tachdl2
+0     94   0   66    202  3.8  PrintURL
+0    142   0    9    506  9.0  read_rs485
+0    144   0    9    506  9.0  read_rs485_4800
+0     72   0   10    256  4.0  send_hamSO2
+0     70   0   10    256  4.0  send_hamNO2
+0     72   0   10    256  4.0  send_hamCO
+0     72   0   10    256  4.0  send_PM25
+0     72   0   10    256  4.0  send_PM10
+0     72   0   10    256  4.0  send_LUX
+0     72   0   10    256  4.0  send_Noise
+0     70   0   10    256  4.0  send_Wind
+0     70   0   10    256  4.0  send_Temp_Humi
+0    886   1   22   2031 11.4  _ketquars485
+0     22   0    0             @const1817
+0     44   0    3             @DIV88
+0    200   0    6             @PRINTF_D_635
+0    900   2   24   1627 10.4  _ketquars485_Temp_Humi
+0     22   0    0             @const1832
+0     30   0    2     69  3.1  BCD_2_DEC
+0     48   0    2     74  3.1  DEC_2_BCD
+0    186   0    7    386  2.2  Set_Time_Date
+0    346   1    1    514  1.9  Update_Current_Date_Time
+0    478   1    6   1282  8.2  capnhat_gio
+0      8   0    0             @const1836
+0     34   0    2             @PSTRINGC_9600_31766_31767
+0    130   0    2             @PRINTF_U_635
+0     14   0    0             @const1845
+0    214   0   12     85  4.0  Random
+0   2970   5   21   3580 11.4  Value_Sensor_RS485
+0     22   0    0             @const1855
+0     68   0    5             @FTOSD
+0    444   1   13             @PRINTF_L32D_1476FPFPF
+0     54   0    1    142  3.9  update_time_1day
+0   2392   4   17   6098 11.4  main
+0     26   0    0             @const1877
+0     18   0    0             @const1879
+0     10   0    0             @const1880
+0     10   0    0             @const1881
+0     18   0    0             @const1882
+0     10   0    0             @const1883
+0    124   0    0             @const1884
+0     42   0    3             @PSTRINGCN_1476
+0    202   0    6             @PRINTF_D_1476
+0    200   0    9             @PRINTF_LU_1476
+0      6   0    0             @const1893
+0     16   0    0             @const1894
+0     14   0    0             @const1895
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               94
+    Statements              2407
+    Comments                2929
+    Volume (V)              101312
+    Difficulty (D)          510.7
+    Effort to implement (E) 51741922
+    Time to implement (T)   798 hours, 29 minutes
+    Est Delivered Bugs (B)  46
+    Cyclomatic Complexity   251
+    Maintainability (MI)    117
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C4   190  0  
+000C6-07FFE  29688  2882  
+
+
+
